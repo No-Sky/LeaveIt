@@ -38,9 +38,9 @@
                         -webkit-border-radius: 3px;
                         -moz-border-radius: 3px;
                         border-radius: 3px;
-                        -webkit-transition: .10s margin .10s, .05s opacity, .10s transform;
-                        -moz-transition: .10s margin .10s, .05s opacity, .10s transform;
-                        transition: .10s margin .10s, .05s opacity, .10s transform;
+                        -webkit-transition: .10s margin .10s, .10s transform;
+                        -moz-transition: .10s margin .10s, .10s transform;
+                        transition: .10s margin .10s, .05s transform;
 
                         .dark-theme & {
                             background: $dark-font-color;
