@@ -89,6 +89,7 @@
                 padding-top: 1em;
                 padding-bottom: 1em;
                 opacity: 0;
+                visibilty: hidden;
                 -moz-transition: 0.5s opacity ease-in-out;
                 -ms-transition: 0.5s opacity ease-in-out;
                 -webkit-transition: 0.5s opacity ease-in-out;
@@ -101,6 +102,7 @@
 
                 &.active {
                     opacity: 1;
+                    visibilty: visible;
                 }
 
 
