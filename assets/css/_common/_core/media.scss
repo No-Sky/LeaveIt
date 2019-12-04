@@ -56,9 +56,9 @@
 
                     &.active {
                         span {
-                            -webkit-transition: .10s margin, .10 opcaity, .10s transform .10s;
-                            -moz-transition: .10s margin, .10 opcaity, .10s transform .10s;
-                            transition: .10s margin, .10 opcaity, .10s transform .10s;
+                            -webkit-transition: .10s margin, .10 opacity, .10s transform .10s;
+                            -moz-transition: .10s margin, .10 opacity, .10s transform .10s;
+                            transition: .10s margin, .10 opacity, .10s transform .10s;
                         }
                         span:nth-child(1) {
                             -moz-transform: rotate(45deg) translate(4px, 6px);
