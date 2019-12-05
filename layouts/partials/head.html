@@ -35,6 +35,7 @@
     <link rel="feed" href="{{ .RelPermalink }}" type="application/rss+xml" title="{{ site.Title }}" />
   {{ end }}
    {{ partial "seo_schema" . }}
+   {{ partial "mathjax.html" . }}
 </head>
 {{ $cdn_url := ""}}
   {{ if eq ( getenv "HUGO_ENV" ) "production" }}
