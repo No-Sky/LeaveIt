@@ -10,10 +10,17 @@
          {{ if .Site.Params.author }}
             <span class="author" itemprop="copyrightHolder"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.author  }}</a> | </span> 
          {{ end }}
-
+			
+		<!-- ICP备案 -->
          {{ with .Site.Params.beian }}
-            <a href="http://www.beian.miit.gov.cn/" target="_blank" rel="external nofollow"><img src="/images/beian.png">{{ . }} </a> |
+            <a href="http://beian.miit.gov.cn/" target="_blank" rel="external nofollow">>{{ . }} </a> |
          {{ end }}
+
+		<!-- 公安备案 -->
+         {{ with .Site.Params.policeBeian }}
+            <a href="http://www.beian.gov.cn" target="_blank" rel="external nofollow"><img src="/images/beian.png">{{ . }} </a> |
+         {{ end }}
+
 		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span>
           </br>
 		  <span><a href="https://www.upyun.com/"><img style="width: 80px; height: 30px; background-color: #70847d;" src="/images/upyun.png" alt=""></a></span> 
